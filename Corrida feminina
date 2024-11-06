@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+        .video {
+            margin-bottom: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .video-title {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 10px;
+            color: #555;
+        }
+        .video-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .video-item {
+            width: 48%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Catálogo de Vídeos</h1>
+        <div class="video-list">
+            <!-- Primeiro Vídeo -->
+            <div class="video-item">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/LsvhNS4w8zc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="video-title">Vídeo 1: Como aprender programação</p>
+                </div>
+            </div>
+
+            <!-- Segundo Vídeo -->
+            <div class="video-item">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/P1DUnWEx6RI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="video-title">Vídeo 2: Dicas para melhorar produtividade</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+Corrida feminina
